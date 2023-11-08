@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 // #include <pybind11/pybind11.h>
+=======
+#include <pybind11/pybind11.h>
+#include <pybind11/numpy.h>
+#include <pybind11/eigen.h>
+
+>>>>>>> parent of 7d43627 (fix building for torch 2)
 #include <torch/extension.h>
 
 #include <pybind11/numpy.h>
